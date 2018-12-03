@@ -15,7 +15,14 @@ body {
   min-width: 100vw;
   height: 100vh;
   background-color: black;
+
 }
+
+/*.background {
+  position: fixed;
+  height: auto;
+  width: auto;
+}*/
 
 .center {
   position: absolute;
@@ -49,6 +56,7 @@ text-align: center;
 letter-spacing: 5;
  cursor: pointer;
  box-shadow:0 0 40px white;
+border-radius: 50px 50px 50px 50px;
 }
 /*background-size:2em 2em;background-position:0em 1em,1em 0,0em 1em,1em 0,0 0,0 0,0 0,0 0,0 0;background-image:linear-gradient(45deg,#000 8%,transparent 8%,transparent 92%,#000 92%),linear-gradient(-45deg,#000 8%,transparent 8%,transparent 92%,#000 92%),linear-gradient(-45deg,#000 8%,transparent 8%,transparent 92%,#000 92%),linear-gradient(45deg,#000 8%,transparent 8%,transparent 92%,#000 92%),linear-gradient(-45deg,transparent 17%,#000 17%,#000 21%,transparent 21%,transparent 79%,#000 79%,#000 83%,transparent 83%),linear-gradient(45deg,transparent 29%,#000 29%,#000 33%,transparent 33%,transparent 67%,#000 67%,#000 71%,transparent 71%),linear-gradient(-135deg,#202020 10%,#090909 33%,transparent 33%,transparent 67%,#161616 67%,#202020 90%),linear-gradient(135deg,transparent 21%,#161616 21%,#2d2d2d 32.6%,#161616 64.5%,#202020 70.3%,#090909 79%,transparent 79%),linear-gradient(-135deg,transparent 21%,#161616 21%,#202020 40%,#202020 60%,#090909 79%,transparent 79%);*/
 /*color: white;
@@ -93,6 +101,7 @@ animation:wish 1s infinite;
   background-color:white;
   box-shadow:0 0 40px white/* #*//*fe019a*/;
    cursor: pointer;
+   /*border-radius: 30px 30px 30px 30px;*/
  }
 
 
@@ -232,7 +241,7 @@ animation:wish 1s infinite;
  #shape-4 span{
   position: absolute;
   top: 5px;
-  right:52px;
+  right:68px;
   font-family: futura;
   /*font-family: 'Merienda', cursive;*/
   /*font-family: 'Asap', sans-serif;*/
@@ -275,7 +284,7 @@ animation:wish 1s infinite;
   #shape-5 span{
   position: absolute;
   top: 5px;
-  right:10px;
+  right:32px;
   font-family: futura;
   /*font-family: 'Merienda', cursive;*/
   /*font-family: 'Asap', sans-serif;*/
@@ -442,7 +451,7 @@ animation:wish 1s infinite;
   #shape-9 span{
   position: absolute;
   bottom: 5px;
-  right:120px;
+  right:48px;
   font-family: futura;
   /*font-family: 'Anton', sans-serif;*/
   font-size: 20px;
@@ -567,7 +576,7 @@ animation:wish 1s infinite;
  /* font-family: 'Anton', sans-serif;*/
   font-size: 20px;
   /*letter-spacing: 1px;*/
-  /*right:120px;*/
+  right:83px;
 }
 #shape-12 :hover {
 -webkit-animation:wish 1s infinite;
@@ -600,7 +609,7 @@ animation:wish 1s infinite;
  #shape-13 span{
   position: absolute;
   bottom: 5px;
-  right:25px;
+  right:60px;
   font-family: futura;
   /*font-family: 'Anton', sans-serif;*/
   font-size: 20px;
@@ -910,20 +919,23 @@ animation-iteration-count: 2;
   display: none;
   font-family: futura;
   color:white;
-}
-*/
+  padding: 50px;
+}*/
+
  #final-1 {
   display: none;
-    width:300px;
-    height:50px;
+    width:900px;
+    height:600px;
     left:300px;
     border-radius: 50px 50px 50px 50px;
     margin: auto;
     font-family: futura;
-  color:#fe019a;
+  font-size: 20px;
+  color:white;
   text-align: center;
     /*width: 50%;*/
-    /*padding: 10px;*/
+    padding: 80px;
+    padding-top:165px;
     box-shadow:0 0 70px white/*#fe019a*/;
     background: black;
     -webkit-animation: fadeinout 4s linear forwards;
@@ -939,10 +951,10 @@ animation-iteration-count: 2;
 @keyframes fadeinout {
   0% { opacity: 0; }
   100% { opacity: 1; }
-}}
+}
 
 /* #final-1 {
--webkit-animation:correct 1s /*infinite*/;
+-webkit-animation:correct 1s /*infinite*//*;*/
 /*-ms-animation:correct 1s;*/
 /*-o-animation:correct 1s ;*/
 /*animation:correct 1s ;*/
@@ -965,22 +977,25 @@ animation-iteration-count: 2;
 }*/
 
 #final-2 {
-   display: none;
-    width:200px;
-    height:100px;
+  display: none;
+    width:900px;
+    height:600px;
+    left:300px;
+    border-radius: 50px 50px 50px 50px;
     margin: auto;
     font-family: futura;
+ font-size: 20px;
   color:white;
   text-align: center;
+  padding: 80px;
+    padding-top:165px;
     /*width: 50%;*/
-    /*padding: 10px;*/
-    box-shadow:0 0 40px #fe019a;
+    box-shadow:0 0 70px white/*#fe019a*/;
     background: black;
     -webkit-animation: fadeinout 4s linear forwards;
     animation: fadeinout 4s linear forwards;
-    /*z-index: 1000;*/
+    
 }
-
 @-webkit-keyframes fadeinout {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -989,19 +1004,27 @@ animation-iteration-count: 2;
 @keyframes fadeinout {
   0% { opacity: 0; }
   100% { opacity: 1; }
-}}
+}
 
 #final-3 {
   display: none;
-    width:700px;
-    height: 600px;
+    width:900px;
+    height:600px;
+    left:300px;
+    border-radius: 50px 50px 50px 50px;
     margin: auto;
+    font-family: futura;
+  font-size: 20px;
+  color:white;
+  text-align: center;
     /*width: 50%;*/
-    /*padding: 10px;*/
-    box-shadow:0 0 40px white;
-    background: white;
+    padding: 80px;
+    padding-top:165px;
+    box-shadow:0 0 70px white/*#fe019a*/;
+    background: black;
     -webkit-animation: fadeinout 4s linear forwards;
     animation: fadeinout 4s linear forwards;
+    
 }
 
 @-webkit-keyframes fadeinout {
@@ -1012,22 +1035,29 @@ animation-iteration-count: 2;
 @keyframes fadeinout {
   0% { opacity: 0; }
   100% { opacity: 1; }
-}}
+}
 
 
 #final-4 {
   display: none;
     width:900px;
-    height: 500px;
+    height:600px;
+    left:300px;
+    border-radius: 50px 50px 50px 50px;
     margin: auto;
+    font-family: futura;
+    font-size: 20px;
+  color:white;
+  text-align: center;
     /*width: 50%;*/
-    /*padding: 10px;*/
-    box-shadow:0 0 40px white;
-    background: white;
+    padding: 80px;
+    padding-top:165px;
+    box-shadow:0 0 70px white/*#fe019a*/;
+    background: black;
     -webkit-animation: fadeinout 4s linear forwards;
     animation: fadeinout 4s linear forwards;
+    
 }
-
 @-webkit-keyframes fadeinout {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -1036,7 +1066,7 @@ animation-iteration-count: 2;
 @keyframes fadeinout {
   0% { opacity: 0; }
   100% { opacity: 1; }
-}}
+}
 
 
 

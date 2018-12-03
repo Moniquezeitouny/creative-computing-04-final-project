@@ -558,12 +558,8 @@ function panningc() {
   var final2= document.getElementById("final-2");
   final2.classList.add("final-2");
   final2.style.display= "block";
-  final2.style.zIndex = 1000;
-  //  final1.style.zIndex = -100;
-  // final3.style.zIndex = -50;
-  // final4.style.zIndex = -50;
-
-
+  // final2.style.zIndex = 1000;
+ 
 
 var correct3= document.getElementById("correct3");
   var stretch= 0;
@@ -604,12 +600,133 @@ var correct3= document.getElementById("correct3");
 
   var correctc= document.getElementById("correctc");
   correctc.style.display= "block";
-  // final1.style.zIndex = -100;
-  // final3.style.zIndex = -50;
-  // final4.style.zIndex = -50;
+  
 }
 
 
+function panningd() {
+  var final2= document.getElementById("final-2");
+  final2.classList.add("final-2");
+  final2.style.display= "block";
+  // final2.style.zIndex = 1000;
+ 
+
+var incorrect3= document.getElementById("incorrect3");
+  var stretch= 0;
+  //setINterval(function, time in miliseconds)
+  var interval2= setInterval (stretch2,10);
+  function stretch2(){
+    if (stretch == 100) {
+      //clear interval= stop running
+      clearInterval(interval2)
+
+    } else {
+      //increments the width by 1 every 5 milliseconds
+      stretch++;
+      correct3.style.width=stretch+ '%';
+
+    }
+  }
+  var shape7= document.getElementById("shape-7");
+  shape7.style.display= "none";
+  var shape8= document.getElementById("shape-8");
+  shape8.style.display= "none";
+  // var shape9= document.getElementById("shape-9");
+  // shape9.style.display= "none";
+  // var shape10= document.getElementById("shape-10");
+  // shape10.style.display= "none";
+  var shape13= document.getElementById("shape-13");
+  shape13.style.display= "none";
+  var shape14= document.getElementById("shape-14");
+  shape14.style.display= "none";
+
+  var final1= document.getElementById("final-1");
+  final1.style.display= "none";
+
+
+  var final4= document.getElementById("final-4");
+  final4.style.display= "none";
+
+
+  var incorrectc= document.getElementById("incorrectc");
+  incorrectc.style.display= "block";
+  
+}
+
+function panninge() {
+  var final3= document.getElementById("final-3");
+  final3.classList.add("final-3");
+  final3.style.display= "block";
+  // final2.style.zIndex = 1000;
+ 
+
+var incorrect3= document.getElementById("incorrect3");
+  var stretch= 0;
+  //setINterval(function, time in miliseconds)
+  var interval2= setInterval (stretch2,10);
+  function stretch2(){
+    if (stretch == 100) {
+      //clear interval= stop running
+      clearInterval(interval2)
+
+    } else {
+      //increments the width by 1 every 5 milliseconds
+      stretch++;
+      correct3.style.width=stretch+ '%';
+
+    }
+  }
+  var shape9= document.getElementById("shape-9");
+  shape9.style.display= "none";
+  var shape10= document.getElementById("shape-10");
+  shape10.style.display= "none";
+
+
+  var final4= document.getElementById("final-4");
+  final4.style.display= "none";
+
+
+  var incorrectc= document.getElementById("incorrectc");
+  incorrectc.style.display= "block";
+  
+}
+
+
+function panningf() {
+  var final4= document.getElementById("final-4");
+  final4.classList.add("final-4");
+  final4.style.display= "block";
+  // final2.style.zIndex = 1000;
+ 
+
+var correct3= document.getElementById("correct3");
+  var stretch= 0;
+  //setINterval(function, time in miliseconds)
+  var interval2= setInterval (stretch2,10);
+  function stretch2(){
+    if (stretch == 100) {
+      //clear interval= stop running
+      clearInterval(interval2)
+
+    } else {
+      //increments the width by 1 every 5 milliseconds
+      stretch++;
+      correct3.style.width=stretch+ '%';
+
+    }
+  }
+  var shape14= document.getElementById("shape-14");
+  shape14.style.display= "none";
+  var shape13= document.getElementById("shape-13");
+  shape13.style.display= "none";
+
+
+  var correctc= document.getElementById("correctc");
+  correctc.style.display= "block";
+  
+}
+
+  
  
 
 
